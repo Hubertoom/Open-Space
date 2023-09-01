@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Open Space</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="space">
+    <div class="planet-area">
+        <img class="planet" src="img/mars.png" alt="planet mars">
+        <img class="rocket" src="img/rocket.png" alt="rocket">
+    </div>
+
+    <div class="control-panel">
+        <div class="control-panel__inner">
+            <input type="password" placeholder="Enter password to unlock" id="passwordField">
+            <input type="button" value="OK" id="okButton">
+            <div class="check-buttons">
+                <input class="check" type="checkbox" disabled onchange="launch()">
+                <input class="check" type="checkbox" disabled onchange="launch()">
+                <input class="check" type="checkbox" disabled onchange="launch()">
+                <input class="check" type="checkbox" disabled onchange="launch()">
+                <input class="check" type="checkbox" disabled onchange="launch()">
+                <input class="check" type="checkbox" disabled onchange="launch()">
+            </div>
+            <div class="levers">
+                <input type="range" class="slider" min="0" max="100" disabled onchange="launch()">
+                <input type="range" class="slider" min="0" max="100" disabled onchange="launch()">
+                <input type="range" class="slider" min="0" max="100" disabled onchange="launch()">
+                <input type="range" class="slider" min="0" max="100" disabled onchange="launch()">
+                <input type="range" class="slider" min="0" max="100" disabled onchange="launch()">
+            </div>
+            <input type="button" class="launch-button" value="LAUNCH" id="launchButton" disabled>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>

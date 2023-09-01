@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+body {
+    background-image: url("https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.planet-area {
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    bottom: 0;
+}
+
+.planet {
+    position: absolute;
+    width: 80%;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.rocket {
+    position: relative;
+    width: 30%;
+    left: 45%;
+    top: 28%;
+    transform: rotate(30deg);
+}
+
+.control-panel {
+    position: absolute;
+    border-radius: 15px;
+    width: 35%;
+    height: 70%;
+    top: 15%;
+    left: 60%;
+    background-color: black;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px,
+    rgba(230,230,0,1) 35px, rgba(255,255,255,.5) 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-panel__inner {
+    background: #222;
+    border: 5px solid rgba(230, 230, 0, .9);
+    border-radius: 15px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    width: 90%;
+    height: 90%;
+}
+
+.check-buttons {
+    display: flex;
+    margin-top: -25px;
+}
+
+.check {
+    margin: 20px;
+    height: 25px;
+    width: 25px;
+}
+
+.levers {
+    display: flex;
+    align-items: center;
+}
+
+.levers>input {
+    transform: rotate(-90deg);
+}
+
+.slider {
+    width: 100px;
+    height: 150px;
+    margin: -5px;
+}
+
+#passwordField,
+#okButton {
+    margin: 1rem;
+    border-radius: 10px;
+    border-color: rgb(230, 230, 0);
+    height: 30px;
+    font-size: 20px;
+}
+
+#okButton {
+    background-color: rgb(230, 230, 0);
+    height: 35px;
+    width: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+#launchButton {
+    background: linear-gradient(0deg, #ff0000, #de0000);
+    width: 10rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+    font-weight: 900;
+    color: mintcream;
+}
+
+#launchButton:hover {
+    background: linear-gradient(0deg, red, darkred);
+}
