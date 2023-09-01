@@ -27,7 +27,6 @@ function launch () {
     }
 }
 
-
 function checkIsChecked() {
     let check = document.querySelectorAll(".check");
     for (let i = 0; i < check.length; i++) {
