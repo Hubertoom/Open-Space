@@ -11,6 +11,4 @@ Simple application to get acquainted with some JavaScript functions <br/>
 brush up and consolidate frontend knowledge. <br/>
 
 ## Presentation video[
-Uploading Open space.mp4…
-](https://github.com/Hubertoom/Open-Space/assets/137101859/7eb67e9e-5079-4d5f-9206-db44ee334348
-)https://github.com/Hubertoom/Open-Space/assets/137101859/7eb67e9e-5079-4d5f-9206-db44ee334348
+https://github.com/Hubertoom/Open-Space/assets/137101859/17ac7176-971a-4f43-b374-e01cefba3d99
